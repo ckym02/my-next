@@ -2,6 +2,14 @@
 const nextConfig = {
   experimental: {
     serverActions: true,
+  },
+  // セキュリティ上の理由からリモートホストの場合は宣言が必要
+  images: {
+    remotePatterns: [
+      {
+        hostname: 'books.google.com'
+      }
+    ]
   }
 };
 
