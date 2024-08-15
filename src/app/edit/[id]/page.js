@@ -1,5 +1,5 @@
 import BookDetails from '@/components/BookDetails';
-import FormEdit from '@/components/formEdit';
+import FormEdit from '@/components/FormEdit';
 import { getBookById, getReviewById } from '@/lib/getter';
 
 export default async function EditPage({ params }) {
